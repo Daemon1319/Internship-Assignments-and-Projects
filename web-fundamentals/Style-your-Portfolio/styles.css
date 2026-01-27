@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #bfcbd4;
+}
+
+header {
+    background-color: #344b5b;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 0 60px;
+}
+
+nav ul {
+    background-color: #5f8da8;
+    border-radius: 10px;
+    margin: 20px 60px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(221, 242, 248);
+    text-align: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(171, 188, 248);
+}
+
+section {
+    padding: 20px 60px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#about {
+    background-color: #c6dee8;
+}
+
+#hobbies {
+    background-color: #86a4b5;
+}
+
+#contact {
+    background-color: #e3e9ed;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #bfcbd4;
+}
+
+th,
+td {
+    border: 1px solid rgb(28, 23, 64);
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    background-color: #c6dee8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form div {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #344b5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: #0e3349;
+}
+
+footer {
+    margin: 0 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    border-top: 2px solid #555555;
+}
