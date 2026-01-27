@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am passionate about web development and enjoy creating projects that solve
+                real-world problems. This portfolio showcases some of my hobbies and interests.
+            </p>
+            <img src="images/photo-1.jpg" alt="Programming Photo" width="300">
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hobby Name</th>
+                        <th>Description</th>
+                        <th>Started Since</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Running</td>
+                        <td>Cardio exercise involving jogging or sprinting, done outdoors or on treadmills.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Streaming</td>
+                        <td>Watching shows/movies on platforms like Netflix, YouTube, etc.</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>Gaming</td>
+                        <td>Playing video games, either solo or multiplayer, on consoles, PC, or mobile devices.</td>
+                        <td>2012</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email Address: </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <p>How did you hear about this portfolio?</p>
+
+                    <label>
+                        <input type="radio" name="source" value="friend" required>
+                        Friend
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="source" value="social-media">
+                        Social Media
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="source" value="search-engine">
+                        Search Engine
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="source" value="other">
+                        Other
+                    </label>
+                </div>
+
+                <div>
+                    <p>Skills/Interests</p>
+
+                    <label>
+                        <input type="checkbox" name="skills" id="web-development">
+                        Web Development
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="skills" id="data-science">
+                        Machine Learning / Data Science
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="skills" id="mobile-development">
+                        Mobile Development
+                    </label><br><br>
+                </div>
+
+                <div>
+                    <label for="message">Comments or Messages: </label><br>
+                    <textarea id="message" name="message" rows="8" cols="50" placeholder="Your message here..."
+                        required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Allan Banzuela 2026</p>
+    </footer>
+</body>
+
+</html>
