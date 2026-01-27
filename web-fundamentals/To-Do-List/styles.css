@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: rgb(222, 226, 227);
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(58, 125, 226);
+    border-radius: 6px;
+}
+
+header h1 {
+    padding: 10px;
+    color: white;
+}
+
+.task-input {
+    display: flex;
+}
+
+input {
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid rgb(196, 196, 196);
+    flex: 1;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-add-task {
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(58, 125, 226);
+    color: white;
+}
+
+.btn-add-task:hover {
+    background-color: rgb(42, 107, 211);
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.task {
+    background-color: rgb(202, 224, 238);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.task-done {
+    background-color: rgb(146, 202, 146);
+    text-decoration: line-through;
+}
