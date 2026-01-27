@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <p>How satisfied are you with our service?</p>
+
+                <label>
+                    <input type="radio" name="satisfaction" value="very_satisfied" required>
+                    Very Satisfied
+                </label><br>
+
+                <label>
+                    <input type="radio" name="satisfaction" value="satisfied">
+                    Satisfied
+                </label><br>
+
+                <label>
+                    <input type="radio" name="satisfaction" value="neutral">
+                    Neutral
+                </label><br>
+
+                <label>
+                    <input type="radio" name="satisfaction" value="dissatisfied">
+                    Dissatisfied
+                </label><br>
+
+                <label>
+                    <input type="radio" name="satisfaction" value="very_dissatisfied">
+                    Very Dissatisfied
+                </label>
+            </div>
+
+            <div>
+                <p>What features do you value most?</p>
+
+                <label>
+                    <input type="checkbox" name="features" value="ease_of_use">
+                    Ease of Use
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="features" value="design">
+                    Design
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="features" value="customer_support">
+                    Customer Support
+                </label><br><br>
+            </div>
+
+            <div>
+                <label for="role">What best describes you?</label>
+                <select id="role" name="role" required>
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="student">Student</option>
+                    <option value="professional">Professional</option>
+                    <option value="hobbyist">Hobbyist</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br><br><br><br><br><br>
+            </div>
+
+            <div>
+                <label for="feedback">Additional Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="8" cols="50" placeholder="Your feedback here..."
+                    required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
