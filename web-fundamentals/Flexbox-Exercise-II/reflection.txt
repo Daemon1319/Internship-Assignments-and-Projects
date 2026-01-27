@@ -1,0 +1,8 @@
+Any difficulties you faced
+- I'm trying to find where I can use justify-content and align-items
+
+How you solved them
+- End up not using them, display:flex and gap did the job
+
+How long the assignment took you to complete
+- around 45 minutes
