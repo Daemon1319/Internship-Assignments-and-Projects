@@ -1,0 +1,156 @@
+body {
+    background-color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #6f2bf5;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    height: 50px;
+}
+
+.header-logo {
+    width: 40px;
+    margin-left: 80px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search-btn {
+    background-color: #6226db;
+    border: 1px solid rgba(212, 212, 212, 0.649);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 300px;
+    text-align: left;
+    margin-left: 325px
+}
+
+.magnifying-glass {
+    color: white;
+}
+
+
+
+.intro,
+.get-started {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 848px;
+}
+
+.intro img {
+    width: 200px;
+    padding: 50px 0 30px 0;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    margin: 0 0 16px;
+    font-weight: 500;
+}
+
+.intro .features {
+    color: #DEE2E6BF;
+    font-size: 24px;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+.documentation {
+    display: flex;
+    margin: 0 0 24px;
+    gap: 14px;
+}
+
+.documentation code {
+    background: #303236;
+    padding: 15px 64px 15px 16px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+.documentation a {
+    background: #7c3aed;
+    color: white;
+    padding: 13px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.intro .versions {
+    font-size: 16px;
+    margin: 0 0 24px;
+}
+
+.versions a {
+    color: #6C757D;
+}
+
+.get-started {
+    width: 700px;
+}
+
+.get-started h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+.get-started p {
+    font-size: 20px;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+.get-started a {
+    font-size: 20px;
+    color: #6EA8FE;
+    margin: 0 0 16px;
+}
+
+.bracket-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #242433;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.bracket {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: #593fa0;
+    user-select: none;
+}
