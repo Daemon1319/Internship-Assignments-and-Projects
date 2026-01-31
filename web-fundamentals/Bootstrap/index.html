@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+    <meta name="description" content="A practice page for Bootstrap framework.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container justify-content-start">
+                <a class="navbar-brand fw-normal" href="#home">My Website</a>
+                <ul class="navbar-nav flex-row gap-3 ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container" id="home">
+        <section class="text-center py-5">
+            <h1 class="fw-semibold">Welcome to My Website</h1>
+            <p class="lead">This is a simple webpage created with Bootstrap!</p>
+        </section>
+
+        <div class="pb-4" id="about">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="border rounded-3 p-3 bg-body-tertiary">
+                        <span class="text-body">Column 1</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 offset-md-4">
+                    <div class="border rounded-3 p-3 bg-body-tertiary">
+                        <span class="text-body">Column 2 (Offset)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="pb-5" id="contact">
+            <h2 class="text-center fw-semibold mb-4">Contact Us</h2>
+
+            <form class="mx-auto" style="max-width: 520px;">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" name="name" class="form-control" type="text" placeholder="Enter your name"
+                        autocomplete="name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" class="form-control" type="email" placeholder="Enter your email"
+                        autocomplete="email" required>
+                </div>
+
+                <div class="mb-4">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write your message"
+                        required></textarea>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                    <button class="btn btn-success" type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
