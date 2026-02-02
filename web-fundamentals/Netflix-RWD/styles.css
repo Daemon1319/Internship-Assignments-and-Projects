@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.9) 2%,
+            rgba(0, 0, 0, 0.6) 30%,
+            rgba(0, 0, 0, 0.6) 50%,
+            rgba(0, 0, 0, 0.8) 100%), url(assets/background.jpg);
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+    padding: 0 190px;
+}
+
+nav .logo {
+    width: 230px;
+}
+
+nav .controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#language {
+    background-color: rgba(0, 0, 0, 0.225);
+    color: white;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-sign-in {
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-sign-in:hover {
+    background-color: #c11119;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto 0;
+    padding: 0 24px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.intro h2 {
+    margin-bottom: 20px;
+}
+
+main {
+    width: 100%;
+    max-width: 1920px;
+    margin-bottom: 100px;
+}
+
+.trending {
+    padding: 0 190px;
+    padding-bottom: 100px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+main h2 {
+    margin-bottom: 35px;
+    font-size: 34px;
+}
+
+.movie-card {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.movie {
+    width: 245px;
+    border-radius: 10px;
+}
+
+.movie-next-btn {
+    padding: 30px 5px;
+    width: 25px;
+    height: 120px;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    border-radius: 6px;
+}
+
+.movie-next-btn:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.more-reasons {
+    padding: 0 190px;
+    margin-bottom: 200px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: #192246;
+    width: 325px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 35px;
+}
+
+.feature-card p {
+    font-size: 22px;
+    color: rgb(185, 185, 185);
+}
+
+.bottom {
+    padding: 0 190px;
+}
+
+.email-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.email-submit p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+}
+
+.input-group input[type="email"] {
+    flex: 1;
+    padding: 25px 20px;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.284);
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.input-group input[type="submit"] {
+    padding: 0 24px;
+    background-color: #e50914;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #c11119;
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 16px;
+    }
+
+    nav .logo {
+        width: 140px;
+    }
+
+    nav .controls {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #language {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .btn-sign-in {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .intro {
+        margin-top: 60px;
+        padding: 0 16px;
+    }
+
+    .intro h1 {
+        font-size: 34px;
+    }
+
+    .intro h2 {
+        font-size: 18px;
+    }
+
+    .trending,
+    .more-reasons,
+    .bottom {
+        padding: 0px 16px 30px;
+    }
+
+    .carousel-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .movie-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .movie {
+        max-width: 150px;
+    }
+
+    .movie-next-btn {
+        display: none;
+    }
+
+    .feature-card {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .feature-card p {
+        font-size: 18px;
+    }
+
+    .more-reasons {
+        margin-bottom: 100px;
+    }
+
+    .email-submit p {
+        font-size: 16px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .input-group input[type="email"] {
+        padding: 14px 12px;
+        font-size: 16px;
+    }
+
+    .input-group input[type="submit"] {
+        width: 100%;
+        padding: 14px 12px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    nav {
+        padding: 12px 40px;
+    }
+
+    nav .logo {
+        width: 180px;
+    }
+
+    .intro {
+        margin-top: 120px;
+        padding: 0 40px;
+    }
+
+    .intro h1 {
+        font-size: 44px;
+    }
+
+    .grid-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .trending,
+    .more-reasons,
+    .bottom {
+        padding: 0 40px 50px;
+    }
+
+    .carousel-container {
+        justify-content: center;
+    }
+
+    .grid-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .movie-card {
+        gap: 20px;
+    }
+
+    .movie {
+        max-width: 160px;
+    }
+
+    .feature-card {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .feature-card p {
+        font-size: 20px;
+    }
+
+    .input-group input[type="email"] {
+        padding: 18px 16px;
+        font-size: 18px;
+    }
+
+    .input-group input[type="submit"] {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav {
+        padding: 0 190px;
+    }
+
+    .intro {
+        max-width: 1000px;
+    }
+
+    .trending,
+    .more-reasons,
+    .bottom {
+        padding: 0 190px 100px;
+    }
+
+    .feature-card {
+        height: 380px;
+    }
+}
