@@ -1,0 +1,19 @@
+# Task 1: Inventory Tracker
+
+Output:
+apple: 10
+banana: 15
+cherry: 5
+date: 20
+elderberry: 7
+
+# Task 2: Alphabetical Sorting
+
+Output:
+['apple', 'banana', 'cherry', 'mango', 'zebra']
+
+# Task 3:
+[7, 14, 3, 19, 1, 12, 8, 16, 5, 11]
+
+# Task 4:
+The sides 7, 10, and 5 form a valid triangle.
