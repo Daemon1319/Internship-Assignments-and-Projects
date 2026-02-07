@@ -97,19 +97,19 @@ aside {
     padding: 24px 0;
 }
 
-.sidebar-nav {
+aside nav {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.sidebar-nav ul {
+aside nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
 }
 
-.sidebar-nav ul li a {
+aside nav ul li a {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -119,16 +119,16 @@ aside {
     font-size: 16px;
 }
 
-.sidebar-nav ul li a:hover {
+aside nav ul li a:hover {
     background-color: #F1F2F3;
 }
 
-.sidebar-nav .icon {
+aside nav img {
     width: 18px;
     height: 18px;
 }
 
-.nav-labs p {
+aside nav ul:last-child p {
     font-size: 16px;
     color: #6A737C;
     padding: 8px 12px;
@@ -147,7 +147,7 @@ main h2 {
     margin: 50px 0 40px 0;
 }
 
-.content-1 {
+.hero {
     background-color: #F9FAFA;
     position: relative;
     padding: 60px;
@@ -155,14 +155,14 @@ main h2 {
     border-radius: 10px;
 }
 
-.content-1 h1 {
+.hero h1 {
     max-width: 49%;
     font-size: 48px;
     margin-bottom: 30px;
     color: #000000;
 }
 
-.content-1 p {
+.hero p {
     font-size: 24px;
     max-width: 57%;
     color: #3B4045;
@@ -170,19 +170,19 @@ main h2 {
     margin-bottom: 30px;
 }
 
-.content-1 span {
+.hero span {
     background-image: url(assets/images/background-image.png);
     color: white;
     padding: 5px 30px;
     background-size: 100% 100%;
 }
 
-.content-1 .btn-group {
+.hero .btn-group {
     display: flex;
     gap: 12px;
 }
 
-.content-1 .btn-sign-up {
+.hero .btn-sign-up {
     background-color: #0A95FF;
     color: white;
     padding: 10px 12px;
@@ -191,7 +191,7 @@ main h2 {
     font-size: 18px;
 }
 
-.content-1 .btn-community {
+.hero .btn-community {
     color: #0A95FF;
     padding: 10px 12px;
     border-radius: 6px;
@@ -199,14 +199,14 @@ main h2 {
     font-size: 18px;
 }
 
-.content-1 img {
+.hero img {
     width: 550px;
     position: absolute;
     right: 30px;
     bottom: 0px;
 }
 
-.content-2 {
+.teams-promotion {
     background-color: #FFFFFF;
     position: relative;
     padding: 40px;
@@ -215,24 +215,24 @@ main h2 {
     margin-bottom: 30px;
 }
 
-.content-2 img:first-child {
+.teams-promotion img:first-child {
     width: 220px;
     margin-bottom: 20px;
 }
 
-.content-2 p {
+.teams-promotion p {
     font-size: 24px;
     color: #3B4045;
     max-width: 50%;
     margin-bottom: 30px;
 }
 
-.content-2 .btn-group {
+.teams-promotion .btn-group {
     display: flex;
     gap: 12px;
 }
 
-.content-2 .btn-group a:first-child {
+.teams-promotion .btn-group a:first-child {
     background-color: #0A95FF;
     color: white;
     padding: 10px 12px;
@@ -241,21 +241,21 @@ main h2 {
     font-size: 18px;
 }
 
-.content-2 .btn-group a:last-child {
+.teams-promotion .btn-group a:last-child {
     background-color: transparent;
     color: #0A95FF;
     padding: 10px 12px;
     font-size: 13px;
 }
 
-.content-2 img:last-child {
+.teams-promotion img:last-child {
     width: 550px;
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
 
-.content-3 {
+.overflow-ai-promotion {
     background-color: #3B4045;
     position: relative;
     padding: 40px;
@@ -263,24 +263,24 @@ main h2 {
     margin-bottom: 30px;
 }
 
-.content-3 img:first-child {
+.overflow-ai-promotion img:first-child {
     width: 250px;
     margin-bottom: 20px;
 }
 
-.content-3 p {
+.overflow-ai-promotion p {
     font-size: 24px;
     color: #FFFFFF;
     max-width: 60%;
     margin-bottom: 30px;
 }
 
-.content-3 p span {
+.overflow-ai-promotion p span {
     font-weight: bold;
     background-color: transparent;
 }
 
-.content-3 a {
+.overflow-ai-promotion a {
     background-color: #F48225;
     color: white;
     padding: 10px 16px;
@@ -290,21 +290,21 @@ main h2 {
     display: inline-block;
 }
 
-.content-3 img:last-child {
+.overflow-ai-promotion img:last-child {
     width: 550px;
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.content-4 {
+.stack-overflow-advertising-api {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
     font-size: 24px;
 }
 
-.content-4>div {
+.stack-overflow-advertising-api>div {
     flex: 1;
     padding: 32px 40px;
     background-color: #FFFFFF;
@@ -312,25 +312,25 @@ main h2 {
     border-radius: 10px;
 }
 
-.content-4 img {
+.stack-overflow-advertising-api img {
     width: 220px;
     margin-bottom: 20px;
 }
 
-.content-4 p {
+.stack-overflow-advertising-api p {
     color: #3B4045;
     line-height: 1.4;
     margin-bottom: 30px;
 }
 
-.content-4 .btn-group {
+.stack-overflow-advertising-api .btn-group {
     display: flex;
     gap: 12px;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.content-4 .btn-group a {
+.stack-overflow-advertising-api .btn-group a {
     padding: 8px 12px;
     border-radius: 4px;
     text-decoration: none;
@@ -338,14 +338,14 @@ main h2 {
     text-align: center;
 }
 
-.content-4>div:first-child .btn-group a:first-child {
+.stack-overflow-advertising-api>div:first-child .btn-group a:first-child {
     background-color: #0A95FF;
     border-radius: 6px;
     color: #FFFFFF;
     margin-top: 25px;
 }
 
-.content-4>div:first-child .btn-group a:last-child {
+.stack-overflow-advertising-api>div:first-child .btn-group a:last-child {
     border: none;
     color: #0A95FF;
     padding: 0;
@@ -353,7 +353,7 @@ main h2 {
     margin-top: 25px;
 }
 
-.content-4>div:last-child a {
+.stack-overflow-advertising-api>div:last-child a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -366,7 +366,7 @@ main h2 {
     font-size: 18px;
 }
 
-.content-5 {
+.careers {
     border: 1px solid #E0E3E6;
     border-radius: 10px;
     position: relative;
@@ -374,12 +374,12 @@ main h2 {
     margin-bottom: 100px;
 }
 
-.content-5 img:first-child {
+.careers img:first-child {
     width: 220px;
     margin-bottom: 14px;
 }
 
-.content-5 p {
+.careers p {
     font-size: 24px;
     color: #3B4045;
     line-height: 1.4;
@@ -387,7 +387,7 @@ main h2 {
     margin-bottom: 30px;
 }
 
-.content-5>a {
+.careers>a {
     background-color: #0A95FF;
     color: #FFFFFF;
     text-decoration: none;
@@ -396,7 +396,7 @@ main h2 {
     border-radius: 6px;
 }
 
-.content-5 img:last-child {
+.careers img:last-child {
     width: 650px;
     position: absolute;
     right: 0px;
@@ -407,10 +407,10 @@ main h2 {
 
 @media (min-width: 1024px) {
 
-    .content-1 img,
-    .content-2 img:last-child,
-    .content-3 img:last-child,
-    .content-5 img:last-child {
+    .hero img,
+    .teams-promotion img:last-child,
+    .overflow-ai-promotion img:last-child,
+    .careers img:last-child {
         max-width: 40%;
         height: auto;
     }
@@ -437,20 +437,20 @@ main h2 {
         border-bottom: 1px solid #E0E3E6;
     }
 
-    .sidebar-nav {
+    aside nav {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 16px;
         padding: 0 12px;
     }
 
-    .sidebar-nav ul {
+    aside nav ul {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 8px 12px;
     }
 
-    .nav-labs p {
+    aside nav ul:last-child p {
         width: 100%;
     }
 
@@ -458,26 +458,26 @@ main h2 {
         padding: 0 16px 40px;
     }
 
-    .content-1,
-    .content-2,
-    .content-3,
-    .content-5 {
+    .hero,
+    .teams-promotion,
+    .overflow-ai-promotion,
+    .careers {
         position: static;
         padding: 32px;
     }
 
-    .content-1 h1 {
+    .hero h1 {
         max-width: 100%;
     }
 
-    .content-1 p {
+    .hero p {
         max-width: 100%;
     }
 
-    .content-1 img,
-    .content-2 img:last-child,
-    .content-3 img:last-child,
-    .content-5 img:last-child {
+    .hero img,
+    .teams-promotion img:last-child,
+    .overflow-ai-promotion img:last-child,
+    .careers img:last-child {
         position: static;
         width: 100%;
         max-width: 520px;
@@ -486,13 +486,13 @@ main h2 {
         display: block;
     }
 
-    .content-2 p,
-    .content-3 p,
-    .content-5 p {
+    .teams-promotion p,
+    .overflow-ai-promotion p,
+    .careers p {
         max-width: 100%;
     }
 
-    .content-4 {
+    .stack-overflow-advertising-api {
         flex-direction: column;
     }
 }
@@ -525,11 +525,11 @@ main h2 {
         padding: 10px 0;
     }
 
-    .sidebar-nav {
+    aside nav {
         gap: 10px;
     }
 
-    .sidebar-nav ul li a {
+    aside nav ul li a {
         font-size: 14px;
         padding: 6px 8px;
     }
@@ -538,45 +538,45 @@ main h2 {
         padding: 0 12px 32px;
     }
 
-    .content-1,
-    .content-2,
-    .content-3,
-    .content-4>div,
-    .content-5 {
+    .hero,
+    .teams-promotion,
+    .overflow-ai-promotion,
+    .stack-overflow-advertising-api>div,
+    .careers {
         padding: 24px;
     }
 
-    .content-1 h1 {
+    .hero h1 {
         font-size: 28px;
     }
 
-    .content-1 p,
-    .content-2 p,
-    .content-3 p,
-    .content-5 p {
+    .hero p,
+    .teams-promotion p,
+    .overflow-ai-promotion p,
+    .careers p {
         font-size: 16px;
     }
 
-    .content-1 .btn-group,
-    .content-2 .btn-group,
-    .content-4 .btn-group {
+    .hero .btn-group,
+    .teams-promotion .btn-group,
+    .stack-overflow-advertising-api .btn-group {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .content-1 .btn-sign-up,
-    .content-1 .btn-community,
-    .content-2 .btn-group a:first-child,
-    .content-3 a,
-    .content-4 .btn-group a,
-    .content-5>a {
+    .hero .btn-sign-up,
+    .hero .btn-community,
+    .teams-promotion .btn-group a:first-child,
+    .overflow-ai-promotion a,
+    .stack-overflow-advertising-api .btn-group a,
+    .careers>a {
         text-align: center;
     }
 
-    .content-4 img,
-    .content-5 img:first-child,
-    .content-2 img:first-child,
-    .content-3 img:first-child {
+    .stack-overflow-advertising-api img,
+    .careers img:first-child,
+    .teams-promotion img:first-child,
+    .overflow-ai-promotion img:first-child {
         width: 160px;
     }
 }
